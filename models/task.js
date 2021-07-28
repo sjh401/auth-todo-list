@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const TodoSchema = new Schema(
     {
-        name: { type: String, required: trus },
+        name: { type: String, required: true },
         due_date: { type: String, required: true },
         conplete: { type: String, required: true },
     },
