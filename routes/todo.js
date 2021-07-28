@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { createTodo, deleteTodo, getAllTodos, getTodo, updateTodo } from "../controllers/todos";
-import restrict from "../helpers/restrict";
+import { createTodo, deleteTodo, getAllTodos, getTodo, updateTodo } from "../controllers/todos.js";
+import restrict from "../helpers/restrict.js";
 
 const router = Router();
 

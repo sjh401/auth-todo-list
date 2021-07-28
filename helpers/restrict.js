@@ -1,4 +1,4 @@
-import jwt from "jsonwebtoken";
+import jwt from "jsonwebtoken"
 const TOKEN_KEY = process.env.TOKEN_KEY || "123456789";
 
 const restrict = (req, res, next) => {
